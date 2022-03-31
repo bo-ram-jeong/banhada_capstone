@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.banhada">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.banhada.mypage.Information_Use"></activity>
+        <activity android:name="com.banhada.product.popular_product" />
+        <activity android:name="com.banhada.mypage.QnA_write" />
+        <activity android:name="com.banhada.mypage.Notice" />
+        <activity android:name="com.banhada.mypage.QnA" />
+        <activity android:name="com.banhada.mypage.Review" />
+        <activity android:name="com.banhada.mypage.Point" />
+        <activity android:name="com.banhada.mypage.delivery" />
+        <activity android:name="com.banhada.mypage.picklist" />
+        <activity android:name="com.banhada.mypage.MyPage" />
+        <activity android:name="com.banhada.mypage.InformationEdit" />
+        <activity android:name="com.banhada.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.banhada.shipping.ShippingActivity" />
+        <activity android:name="com.banhada.shipping.Shipping2Activity" />
+        <activity android:name="com.banhada.mart.MartActivity" />
+        <activity android:name="com.banhada.mart.Mart2Activity" />
+        <activity android:name="com.banhada.mart.Mart3Activity" />
+        <activity android:name="com.banhada.login.NaverLogin" />
+        <activity android:name="com.banhada.login.SignUp_Complete" />
+        <activity android:name="com.banhada.login.FindIDPW" />
+        <activity android:name="com.banhada.login.NormalUser_Login" />
+        <activity android:name="com.banhada.login.NormalUser_SignUp" />
+        <activity android:name="com.banhada.payment.Payment_Phone" />
+        <activity android:name="com.banhada.payment.Payment_BankBook" />
+        <activity android:name="com.banhada.payment.Payment_CreditCard" />
+        <activity android:name="com.banhada.payment.PaymentProcess2" />
+        <activity android:name="com.banhada.payment.Payment" />
+        <activity android:name="com.banhada.product.User_Product" />
+        <activity android:name="com.banhada.product.Food" />
+        <activity android:name="com.banhada.product.MyProduct" />
+        <activity android:name="com.banhada.product.Cook" />
+        <activity android:name="com.banhada.HomeActivity" />
+        <activity android:name="com.banhada.login.LoginLayout" />
+    </application>
+
+</manifest>
